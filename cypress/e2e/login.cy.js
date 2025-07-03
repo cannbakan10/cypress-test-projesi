@@ -8,7 +8,7 @@ describe("Login E2E", () => {
     cy.get('input[placeholder="Şifre giriniz"]').type("123456");
     cy.get('input[type="checkbox"]').check();
     cy.get('button').click();
-    cy.contains("Başarıyla giriş yapıldı!").should("exist");
+    cy.contains("Başarıyla giriş yapıldı !").should("exist");
   });
 
   it("Geçersiz email hatası", () => {
