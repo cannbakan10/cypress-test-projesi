@@ -12,7 +12,7 @@ export default function Login() {
   const validate = () => {
     if (!email.includes('@')) return "Geçerli email giriniz";
     if (password.length < 6) return "Şifre en az 6 karakter olmalı";
-    if (!terms) return "Şartları kabul etmelisiniz";
+    if (!terms) return "Şartları kabul etmelisiniz !";
     return "";
   }
 
