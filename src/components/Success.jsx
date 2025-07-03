@@ -1,3 +1,3 @@
 export default function Success() {
-  return <h2>Başarıyla giriş yapıldı!</h2>
+  return <h2>Başarıyla giriş yapıldı !</h2>
 }
